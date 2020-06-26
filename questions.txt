@@ -1,0 +1,79 @@
+1. jQuery("#id") is the same as ____
+a. %("id")
+b. $(id)
+c. (id)
+d. $("id")
+
+correct answer D
+
+2. which jQuery method inserts content to the end of each matched element?
+a. .prepend()
+b. .add()
+c. .insert()
+d. .append()
+
+correct answer D
+
+3. what would this code block do? $('p').css('background-color','green')
+a. change background color of the body to green
+b. change the text color of all p elements to green
+c. change the background color of all p elements to green
+d. none of the above
+
+correct answer C
+
+4. what elements would be selected by this selector? $('p.content')
+a. all p elements
+b. all p elements with the class of content
+c. all p elements with the id of content
+d. the first p element with the class of content
+
+correct answer B
+
+5. what is the correct jQuery to set all div elements to 75 pixels wide
+a. $('div').css('width','100px')
+b. $('div.css')('width','100px')
+c. $('div').addClass('width','100px')
+d. $('div.all').css('width','100px')
+
+correct answer A
+
+6. _____ is used to stop animations or effects before they are finished
+a. .quit()
+b. .remove()
+c. .stop()
+d. .toggle()
+
+correct answer C
+
+7. what does the .length() jQuery method return?
+a. the length of a string
+b. the size of a document
+c. the length of an array
+d. the number of elements matched by the selector
+
+correct answer D
+
+8. DOM stands for 
+a. Documnent Object Model
+b. Document Operation Matrix 
+c. Direct Object Managment 
+d. Document Order Model
+
+correct answer A
+
+9. ___ stops event propagation in jQuery
+a. event.stopProp()
+b. event.quit()
+c. event.stopPropagation()
+d. event.stop()
+
+correct answer C
+
+10. jQuery is useful because  
+a. it allows us to manipulate the DOM quickly 
+b. it allows us to traverse the DOM quickly
+c. it lets us write less code than vanilla JS
+d. all of the above 
+
+ correct answer D

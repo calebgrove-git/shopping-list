@@ -1,47 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
 * {
-  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5vw;
+  margin-bottom: -5vw;
+}
+.headerItem {
+  width: 40%;
+}
+header img {
+  height: 100;
+}
+header #quizTitle {
+  font-size: 9vw;
+}
+main {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: auto;
+  margin: 50px;
+}
+main h2 {
+  text-align: center;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+#quiz-submit {
+  width: auto;
+  align-self: center;
 }
-
-button, input[type="text"] {
-  padding: 5px;
+#quiz-answers {
+  align-self: center;
 }
-
-button:hover {
-  cursor: pointer;
-}
-
-#shopping-list-item {
-  width: 250px;
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.shopping-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.shopping-list > li {
-  margin-bottom: 20px;
-  border: 1px solid grey;
-  padding: 20px;
-}
-
-.shopping-item {
-  display: block;
-  color: grey;
-  font-style: italic;
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.shopping-item__checked {
-  text-decoration: line-through;
+#hint {
+  width: auto;
+  align-self: center;
 }
